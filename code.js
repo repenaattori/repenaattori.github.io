@@ -31,7 +31,7 @@ function setWord(){
     for (let i = 0; i < questions[qnum].a.length; i++) {
         let div = document.createElement('div');
         div.classList.add('letter');
-        div.addEventListener('click',()=> letterClick(i));
+        div.addEventListener('click',()=> letterClick(i, div));
         let span = document.createElement('span');
         div.appendChild(span);
         wordDiv.appendChild(div);        
@@ -39,7 +39,8 @@ function setWord(){
 }
 
 
-function letterClick(ind){
+function letterClick(ind, div){
+    div.focus();
     let letters = document.querySelectorAll('.letter');
     for (let i = 0; i < letters.length; i++) {
         if(ind==i){
