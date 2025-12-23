@@ -43,8 +43,6 @@ function letterClick(ind){
 function checkLetters(e,i){
     
     filledWord[i] = e.target.value;    
-    console.log(filledWord.join(''));
-    console.log(questions[qnum].a);
     
     
     if(filledWord.join('').toLowerCase() == questions[qnum].a.toLocaleLowerCase()){        
