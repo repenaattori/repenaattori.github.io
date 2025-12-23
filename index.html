@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="questions.js" defer></script>
-    <script src="code.js" defer></script>
-    
 </head>
 <body>
-    <h2></h2>
-    <div id="word">
-   
-    </div>
-    <h1 class="hidden">Vastaus oikein! Uusi kirjain kokoelmaan!</h1>
-    <div id="letters">
-   
-    </div>
+    <h1>Valitse oma visa</h1>
+    <button onclick="navi('l')">Leino</button>
+    <button onclick="navi('m')">Mauno</button>
+    <script>
+        function navi(n){
+            window.location = '/trivia.html?user='+n;
+        }
+    </script>
+    <style>
+        button{
+            font-size: 2em;
+        }
+    </style>
 </body>
 </html>

@@ -3,6 +3,8 @@ let qnum = 0;
 let selectedBox = 0;
 let filledWord = [];
 
+let questions = new URLSearchParams(window.location.search).get('user') == 'l' ? leinolle : maunolle;
+
 let wordDiv = document.getElementById('word');
 let qDiv = document.querySelector('h2');
 
