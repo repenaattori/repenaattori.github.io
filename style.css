@@ -12,9 +12,11 @@
     align-items: center;
     font-size: 2em;
     font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
 }
 
-div.selected{
+input.selected{
     background-color: lightgray;
 }
 
@@ -23,5 +25,5 @@ div.correct{
 }
 
 #result{
-    
+
 }
