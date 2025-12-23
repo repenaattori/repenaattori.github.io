@@ -1,5 +1,5 @@
 let key = '';
-let qnum = 1;
+let qnum = 0;
 let index = 0;
 
 document.addEventListener('keyup', updateKey);
@@ -30,10 +30,9 @@ function setWord(){
     qDiv.textContent = questions[qnum].q;
     for (let i = 0; i < questions[qnum].a.length; i++) {
         let input = document.createElement('input');
-        input.classList.add('letter');
         input.addEventListener('click',()=> letterClick(i));
         wordDiv.appendChild(input);        
-
+        input.id=i.toString();
         //input.addEventListener('input', e => console.log(e));
         input.setAttribute('maxlength', "1")
     }
