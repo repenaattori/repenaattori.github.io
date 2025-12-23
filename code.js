@@ -47,7 +47,7 @@ function checkLetters(e,i){
     console.log(questions[qnum].a);
     
     
-    if(filledWord.join('') == questions[qnum].a){        
+    if(filledWord.join('').toLowerCase() == questions[qnum].a.toLocaleLowerCase()){        
         document.querySelector('h1').classList.remove('hidden');
         document.querySelector('#word').classList.add('hidden');
         
