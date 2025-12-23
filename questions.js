@@ -1,4 +1,4 @@
 let questions = [
     {q:'Muistetaankohan meitä vielä, kun ? leijaillaan tiellä', a: 'tomuna', letter: 'O'},
-    {q: 'Parunkissan kirkas väri kotona?', a:'oranssi', letter: 'R'}
+    {q: 'Meidän pajunkissa kirkas väri ?', a:'oranssi', letter: 'R'}
 ]
