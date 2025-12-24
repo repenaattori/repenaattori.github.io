@@ -1,7 +1,7 @@
 let leinolle = [
     {q:'Muistetaankohan meitä vielä, ? kun leijaillaan tiellä', a: 'tomuna', letter: 'O'},
     {q: 'Meidän pajunkissan kirkas väri', a:'oranssi', letter: 'R'},
-    {q: '"Lue nollia". Siinäpä paljastui teidän kaverusten etunimet. Kuka on se toinen?', a:'allu',letter: 'A'},
+    {q: '"Lue nollia". Siinäpä paljastui teidän kahden kaveruksen nimet. Kuka on se toinen?', a:'allu',letter: 'A'},
     {q: 'Mikä my little pony äidillä oli pienenä?', a: 'rarity', letter:'ä'},
     {q: 'Kuka on eksynyt New Yorkissa?', a: 'kevin', letter:'v'},
     {q: `Rock 'n roll ? bring thine hard rock hallelujah?`, a: 'angels', letter:'A'}
